@@ -3,6 +3,7 @@ import { Flowbite } from "flowbite-react";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import Services from "./pages/Services";
 
 export default function App() {
   return (
@@ -14,14 +15,7 @@ export default function App() {
         <main className="mt-20">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route
-              path="/services"
-              element={
-                <h1 className="text-slate-700 dark:text-slate-100 text-4xl font-bold text-center my-2">
-                  Services
-                </h1>
-              }
-            />
+            <Route path="/services" element={<Services />} />
             <Route
               path="/about"
               element={
