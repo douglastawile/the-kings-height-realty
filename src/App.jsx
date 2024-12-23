@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Flowbite } from "flowbite-react";
 import Navigation from "./components/Navigation";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
@@ -11,14 +12,7 @@ export default function App() {
         </header>
         <main className="mt-20">
           <Routes>
-            <Route
-              path="/"
-              element={
-                <h1 className="text-slate-700 dark:text-slate-100 text-4xl font-bold text-center my-2">
-                  Home
-                </h1>
-              }
-            />
+            <Route path="/" element={<Home />} />
             <Route
               path="/services"
               element={
