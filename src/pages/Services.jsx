@@ -19,9 +19,9 @@ const Services = () => {
       </header>
 
       <section className="flex flex-wrap justify-center items-center rounded-lg">
-        <Card className="max-w-xl mx-2 my-4 sm:max-w-xl">
+        <Card className="w-full max-w-xl mx-2 my-4 sm:max-w-xl">
           <img
-            className="h-auto max-w-xl rounded-lg shadow-xl dark:shadow-gray-800"
+            className="h-auto w-full rounded-lg shadow-xl dark:shadow-gray-800"
             src="/details.jpg"
             alt="image description"
           />
@@ -69,11 +69,11 @@ const Services = () => {
               },
             ].map(({ title, images }, tabIndex) => (
               <Tabs.Item key={tabIndex} title={title}>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                   {images.map((src, imgIndex) => (
                     <div key={imgIndex}>
                       <img
-                        className="h-auto max-w-full rounded-lg"
+                        className="h-auto w-full rounded-lg"
                         src={src}
                         alt={`${title} example ${imgIndex + 1}`}
                         aria-label={`${title} example ${imgIndex + 1}`}
