@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Services from "./pages/Services";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -16,14 +17,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
-            <Route
-              path="/about"
-              element={
-                <h1 className="text-slate-700 dark:text-slate-100 text-4xl font-bold text-center my-2">
-                  About
-                </h1>
-              }
-            />
+            <Route path="/about" element={<About />} />
             <Route
               path="/contact"
               element={
