@@ -11,8 +11,8 @@ const Navigation = () => {
       <Link to={`/`}>
         <Navbar.Brand as={"div"}>
           <img
-            src="/logos/logo1.jpg"
-            className="mr-3 h-10 w-10 sm:h-9 rounded-full"
+            src="/logo1.jpg"
+            className="mr-3 h-10 w-10 sm:h-9 rounded-full object-cover"
             alt="Kings Height Realty"
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
