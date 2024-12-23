@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Flowbite } from "flowbite-react";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
             />
           </Routes>
         </main>
+        <Footer />
       </Flowbite>
     </BrowserRouter>
   );
