@@ -12,7 +12,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <div>
+    <div className="h-screen bg-gradient-to-r from-white to-gray-200 dark:bg-gradient-to-r dark:from-gray-900 dark:to-black">
       <h1 className="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
         Contact Us
       </h1>
