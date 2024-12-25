@@ -21,18 +21,18 @@ const Contact = () => {
         You can reach us for more enquiries:{" "}
       </h3>
       <div className="my-4">
-        <article className="group block max-w-lg my-4 mx-2 sm:mx-auto rounded-lg shadow-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500 dark:bg-slate-700">
+        <article className="group block max-w-lg my-4 mx-2 sm:mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500 dark:bg-slate-700">
           <div className="flex items-center space-x-3">
             <div className="flex">
               <FaPhoneAlt className="mx-3 my-1 text-2xl dark:text-slate-300" />
-              <h3 className="text-slate-900 text-xl group-hover:text-white text-sm font-bold dark:text-slate-300">
+              <h3 className="text-slate-900 text-xl group-hover:text-white font-bold dark:text-slate-300">
                 Phone Call
               </h3>
               <p className="text-center mx-4 text-lg font-semibold dark:text-slate-300">
                 Or
               </p>
               <FaWhatsapp className="mx-3 my-1 text-2xl dark:text-slate-300" />
-              <h3 className="text-slate-900 text-xl group-hover:text-white text-sm font-bold dark:text-slate-300">
+              <h3 className="text-slate-900 text-xl group-hover:text-white font-bold dark:text-slate-300">
                 WhatsApp
               </h3>
             </div>
@@ -42,11 +42,11 @@ const Contact = () => {
           </p>
         </article>
 
-        <article className="group block max-w-lg my-4 mx-2 sm:mx-auto rounded-lg shadow-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500 dark:bg-slate-700">
+        <article className="group block max-w-lg my-4 mx-2 sm:mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500 dark:bg-slate-700">
           <div className="flex items-center space-x-3">
             <div className="flex">
               <MdEmail className="mx-3 my-1 text-2xl dark:text-slate-300" />
-              <h3 className="text-slate-900 text-xl group-hover:text-white text-sm font-bold dark:text-slate-300">
+              <h3 className="text-slate-900 text-xl group-hover:text-white font-bold dark:text-slate-300">
                 Email Address
               </h3>
             </div>
