@@ -12,14 +12,11 @@ const Contact = () => {
   }, []);
 
   return (
-    <div className="h-screen bg-gradient-to-r from-white to-gray-200 dark:bg-gradient-to-r dark:from-gray-900 dark:to-black">
+    <div className="h-screen mt-4">
       <h1 className="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
         Contact Us
       </h1>
 
-      <h3 className="my-2 text-2xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-slate-400">
-        You can reach us for more enquiries:{" "}
-      </h3>
       <div className="my-4">
         <article className="group block max-w-lg my-4 mx-2 sm:mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500 dark:bg-slate-700">
           <div className="flex items-center space-x-3">

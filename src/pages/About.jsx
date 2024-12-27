@@ -86,7 +86,7 @@ const About = () => {
   }, []);
 
   return (
-    <main className="h-screen bg-gradient-to-r from-white to-gray-200 dark:bg-gradient-to-r dark:from-gray-900 dark:to-black">
+    <main className="h-screen">
       <header>
         <h1 className="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           About Me
@@ -94,7 +94,7 @@ const About = () => {
       </header>
 
       <section>
-        <Card className="max-w-xl mx-4 sm:mx-auto mt-8 mb-16">
+        <Card className="max-w-xl mx-4 sm:mx-auto mt-8 mb-16 bg-slate-200 dark:bg-slate-800">
           <div className="flex flex-col items-center pb-10">
             <img
               src="/profile.jpg"
@@ -107,7 +107,7 @@ const About = () => {
             <h2 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
               Abubakar Yussif
             </h2>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            <p className="text-md text-gray-600 dark:text-gray-400 mb-4">
               Mr. Abubakar Yussif is the CEO of The Kings Height Realty and a
               Property Consultant with over three years of experience.
             </p>

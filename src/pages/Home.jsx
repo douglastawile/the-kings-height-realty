@@ -4,10 +4,7 @@ import "../styles/fadeIn.css";
 
 const Home = () => {
   return (
-    <main
-      role="main"
-      className="h-screen bg-gradient-to-r from-white to-gray-200 dark:bg-gradient-to-r dark:from-gray-900 dark:to-black min-h-screen mb-16 bg-home"
-    >
+    <main role="main" className="h-screen min-h-screen mb-16 bg-home">
       <HomeCarousel />
       <section
         className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 flex flex-col justify-center items-center text-center"
