@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import HomeCarousel from "../components/HomeCarousel";
 import "../styles/fadeIn.css";
+import "../styles/home.css";
 
 const Home = () => {
   return (
@@ -12,15 +13,16 @@ const Home = () => {
       >
         <h1
           id="welcome-heading"
-          className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl fade-in"
+          className="mb-4 text-3xl font-extrabold text-slate-900 dark:text-white md:text-5xl lg:text-6xl fade-in"
         >
-          Welcome to{" "}
+          <span className="bebas-neue-regular">Welcome to</span> <br />
+          <hr className="h-1 my-2 bg-slate-300 border-0 dark:bg-slate-700" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
             The Kings Height Realty
           </span>
         </h1>
         <p
-          className="text-base sm:text-lg lg:text-xl font-normal text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-8"
+          className="text-base sm:text-lg lg:text-xl font-normal text-slate-500 dark:text-slate-400 max-w-2xl mx-auto mb-8"
           role="contentinfo"
         >
           Your trusted partner for real estate and construction services.
